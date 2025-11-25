@@ -1,4 +1,4 @@
-# Garbage Classification AI Assistant - Mobile App
+# Garbage Classification Mobile App
 
 A Flutter-based mobile application for AI-powered garbage classification using the YOLOv8 model for real-time object detection and classification.
 

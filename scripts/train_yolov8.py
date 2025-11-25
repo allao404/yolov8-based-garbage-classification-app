@@ -118,7 +118,7 @@ def train_model(
         'patience': 50,  # Early stopping patience
         'cos_lr': True,
         'pretrained': True, # !
-        'freeze': 0,  # !Freeze first 10 layers
+        'freeze': 0,  #
         'save': True,
         'save_period': 10,  # Save checkpoint every 10 epochs
         'cache': False,  # Don't cache images (uses less RAM)
@@ -335,14 +335,14 @@ def main():
 
     # Training configuration
     config = {
-        'model_size': 'm',  # YOLOv8s for faster training and good accuracy
+        'model_size': 's',  # YOLOv8s for faster training and good accuracy
         'data_config': 'configs/garbage.yaml',
         'epochs': 200,  # Sufficient for convergence with larger dataset
         'imgsz': 640,  # Standard YOLO size, good balance
         'batch': 128,  # Increased batch size for 4 GPUs (32 per GPU)
         'device': [0, 1, 2, 3],  # Use 4 GPUs
         'project': 'models',
-        'name': 'garbage_yolov8m_v3',
+        'name': 'garbage_yolov8s',
         'resume': False  # Set to True to resume training
     }
 
