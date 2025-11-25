@@ -4,7 +4,7 @@ A comprehensive AI-powered garbage detection system featuring YOLOv8 object dete
 
 ---
 
-![App-Demo](https://github.com/RunRiotComeOn/yolov8-based-garbage-classification-app/main/assets/Android%20Emulator.mp4)
+![App-Demo](https://github.com/RunRiotComeOn/yolov8-based-garbage-classification-app/main/assets/Android-Emulator.mp4)
 
 ---
 
