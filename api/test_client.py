@@ -1,3 +1,4 @@
+# 肖晴标注
 """
 Test client for Garbage Classification API
 Example usage of the API endpoints
