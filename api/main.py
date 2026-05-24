@@ -1,3 +1,4 @@
+# 肖晴标注
 """
 FastAPI Service for Garbage Classification
 Provides API endpoint for real-time trash detection and classification
