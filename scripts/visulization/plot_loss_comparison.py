@@ -1,3 +1,4 @@
+# 肖晴标注
 #!/usr/bin/env python3
 """
 对比YOLOv8s和YOLOv8m的训练和验证损失变化趋势
